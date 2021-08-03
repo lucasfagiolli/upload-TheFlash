@@ -13,7 +13,7 @@ let suasImagens = [
   },
   {
     index: 1,
-    src: 'http://www.osmais.com/wallpapers/201511/the-flash-wallpaper.jpg'
+    src: 'https://lh3.googleusercontent.com/a0PYMkJZw8bW9_EsCQ7kThJM6piAL1ZK4b6x3yA3oLZ8OSHDADyOw9T6U4Z5TK0UkAHqnl2bdnRXwH5odz8yYwdAuOacAs48SDp7B2L7SZ17nw2MxFNP5QDjuHefYELfd5oi5VIigS5IZEjoqpAcUsNbQQ10AiYfHPd0DrXxe1w6bOITAGbOYsCXw11g9bBR7M0IYb_swtoQj_Gklbe24tIK-JG043x-yon31vjoLTTRn2R01J7XU_jSn856DQtWPXr8V6d1n1dk54NUX59UpdT3Mvd35hYcGtvT3Cp8bjf_SHObiEIjfeLugTt1Zwugb8an7ZLZCRhgYdpsMhKCE97lN734uKMlPYy4bj_lTahIX2snseNW6pH0oSIdot0_MfKQNgDKpF6Bmt63JRjs2fjjz3GfwcLGsSTIo66RhFJea5epKpZ8uNJh_qod5zsZcnNBmnFRVIU49huR_I-MOrwQ7hJwI4DJ-bbNUMeoCVMiqaYT8hM1LJTNFhguBlejiPev9goHQcMO_NAmqwTKN8npBszK9wX93ueyRKoP7dJGgHY54GqZLrlhVC-lg5kvKKAWuow79MgyYaxfJkD8J4wu8-LZb4bVQjr-4zyt4s6mpwOR4SSK26GTL6pPVu1tIT0H-tTEA7HIUpbXikJUWEOYmFT_f59Y5G_trMj6XMkLbarTI9FypDWuCoEX148IHOaNnkPiWM9fXsW0DF3AgI4=w1622-h912-no?authuser=0'
   },
 
   {
@@ -26,11 +26,11 @@ let suasImagens = [
   },
   {
     index: 4,
-    src: 'http://www.osmais.com/wallpapers/201512/flash-veloz-wallpaper.jpg'
+    src: 'https://lh3.googleusercontent.com/VmDI3nc4SBmFqgZy4GLmMQrOrWtF6MiM7ng3KQdt87SBbT0yJFQPI4aZ7qD3aibAJ1P3lxOWBXoRYf9DltpfiqQkV7ZBUAv_35Hd2zYZsBd3sbE70yYrfRs9BKMFJckSaF1pwEaD4rxZ-C6_4sZWe3o7jETj82rJ5fWQaXgeyEdEQOtoxx2MlO1DWHYLvMzYYaqkmQMIXBBMIZWn1oW73B-ovpokk753FVKqhWxL2q6xexnwvYQKUbjlUU35LNR7qgDikp0ouwf3B9uXiDCl8mmyI7_Woip7gCHZ-roB9aPYxkXtP7AXdpUyVw7ftewLGyNQoRnyidblwWJF16HnF3NWmTK8tTtmDVfA-izKGs4sBYu5DZfWf6CelPKbdQUP_ssQauBhrL2cRsW_Z8tRNqU0Bz_tDynlviq1hwNHP4oBgb6d1EnIwbCIXQsOFejv2k0sbpd0DcXxs0NEaa0XnZBkoQ-97XYLh647sHwxDVoWDQr140vHwxAn3CcBLwP0neMTPx_x1HUSXGMJmlCGCFO8cU2OJXp5AXHEqMdb5QR-wp8ZfNBG_oR6Bvbxzz0YT1pY16KjiJsvJ3xhQBqiDvoWqw7aQTEIhSchXELas2ozjBsJ2IBga8thmzHNdh_mWzbtDZE5xOWQdKT8nOsLlTiWN6POpR210n0OHPFfsYW_0BT5ANqU7mGolm4HkByiYFlgwmUN5vUHv4rvxjiUefg=w615-h346-no?authuser=0'
   },
   {
     index: 5,
-    src: 'https://www.tvepipoca.com.br/wp-content/uploads/2016/01/The-Reverse-Flash-Returns.jpg'
+    src: 'https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/02/legiao_xXWbA8zHCqZt.png.jpeg'
   },
   {
     index: 6,
