@@ -10,7 +10,7 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 /*////////imagem de fundo direto do css */
-.hero {
+#hero {
   width: 100%;
   height: 100vh;
   background-image: url(./images/ezra-miller-as-the-flash_2560x1440_xtrafondos.com.jpg);
@@ -158,7 +158,7 @@ p {
 }
 
 /*////////////////////////pagina 2///////////////////////*/
-.pag-2 {
+#pag-2 {
   height: 80%;
   background-position: center;
   background-size: cover;
@@ -268,72 +268,68 @@ p {
 }
 
 /*///////////////////////Pagina 3 /////////*/
-.footer {
-  padding: 100px 20px 15px;
-  background-image: linear-gradient(#800000, #000000);
-  color: #fff;
+#contact {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(
+    65deg
+    , rgb(0 0 88 / 94%), rgb(113 0 0));
 }
 
-/*logo*/
-.footer-logo {
-  width: 150px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.footer h4 {
-  text-align: left;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-.footer p {
-  font-size: 12px;
-  text-align: justify;
-  padding-right: 35px;
-}
-
-.footer .row .fa {
-  padding-right: 20px;
-  font-size: 15px;
-}
-.footer hr {
-  margin-top: 10px;
-  background: #efefef;
-}
-
-.fa-heart {
-  margin: 0 5px;
-  color: #f44336;
-}
-
-.footer .copyright {
+#contact .text-3 {
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
+  width: 100%;
   text-align: center;
 }
-.row {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-  display: inline-flex;
+#contact .h4-te {
+  margin: 80px;
+  font-size: 35px;
+  font-family: initial;
+  color: #fff;
 }
-.footer::after {
-  box-sizing: border-box;
-}
-.footer::before {
-  box-sizing: border-box;
-}
-
-.container {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+#contact .btn {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
 }
 
+#contact .btn i {
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+
+#contact .btn:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+#contact .btn:before {
+  content: '';
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+#contact .btn:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
 /*////////////////////x////////////*/
 
 /*/////////////////animações //////////////*/
@@ -404,67 +400,95 @@ p {
 /*//////x*/
 
 /*/ ///////////// responsivooooo //////////*/
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: -26px;
-    line-height: 50px;
-  }
+@media (max-width: 600px) { 
 
-  p {
-    font-size: -26px;
-    line-height: -10px;
-    text-align: justify;
-    font: small-caption;
-  }
-
-  .side-bar {
-    /*deixa no canto esquerdo em baixo */
-    width: 100%;
-    height: 50px;
-    top: auto;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    box-sizing: border-box;
-  }
-
-  /*jogou as redes sociais embaixo uma do lado da outra*/
-  .social-links {
-    width: auto;
-    position: unset;
-    transform: none;
-  }
-  .useful-links {
-    width: auto;
-    position: unset;
-  }
-  /*acertou as coisas, separando */
-  .menu {
-    width: 18px;
-    margin: 0;
-  }
-
-  /*imagem */
-  .hero {
-    background-image: linear-gradient(#000e2e, #004f5a);
-  }
+/*////////pag-1 //////////////////*/
+#hero {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (min-width: 768px) {
-  .carousel-control {
-    width: 30px;
-    height: 30px;
-    margin-top: -10px;
-    font-size: 30px;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
+#hero .navbar {
+  text-align: center;
+  font-size: 0.6rem;
 }
-@media (min-width: 768px) {
-  .col-md-3 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
+#hero  h1 {
+ display:none;
+}
+
+#hero p {
+ display: none;
+}
+#hero  .side-bar {
+  display:none
+}
+/*button */
+#hero  .content .button2 {
+ display: none;
+}
+
+#hero  button {
+  font-size:8px;
+}
+
+/*logo*/
+#hero  .logo {
+  height: 40px;
+  width: 40px;
+}
+/*////////x//////////////////*/
+
+/*////////pag-2 //////////////////*/
+#pag-2 {
+  max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pag-2  .text-up-lf {
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+#pag-2 h2 {
+  font-size:30px;
+  color: black;
+}
+
+#pag-2 p {
+  font-size: 12px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+#pag-2  .carrosel-container{
+  width: 20rem;
+  height: 10rem;
+}
+/*///x*/
+/*//////////////////pag-3 */
+#contact {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .text-3 {
+  margin: 0;
+}
+
+#contact .h4-te h4 {
+  font-size: 20px;
+  margin-bottom: -50px;
+}
+
+#contact .redes {
+  display: inline-flex;
+}
+
+#contact .redes .btn {
+  width: 60px;
+  height: 100%;
+}
 }
